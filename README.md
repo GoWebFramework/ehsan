@@ -18,7 +18,13 @@ package main
 import "github.com/GoWebFramework/ehsan"
 
 func hello(url ehsan.URI) []byte {
-	return []byte("hello world")
+	name := url.Query().Get("name")
+
+	if name == "" {
+		name = "World"
+	}
+
+	return []byte("Hello " + name)
 }
 
 func login(url ehsan.URI) []byte {
