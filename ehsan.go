@@ -26,7 +26,7 @@ func (server *NewServer) Run() {
 		panic(err)
 	}
 
-	buf := make([]byte, server.MaxBodySize)
+	// buf := make([]byte, server.MaxBodySize)
 
 	for {
 		conn, err := ln.Accept()
