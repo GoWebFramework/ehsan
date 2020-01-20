@@ -2,7 +2,7 @@
 
 <img align="right" width="100" height="100" src="https://raw.githubusercontent.com/GoWebFramework/ehsan/master/ehsan.png">
 
-(CURRENTLY) THIS IS JUST A TOY PROJECT 
+(CURRENTLY) THIS IS JUST A TOY PROJECT, and also: 3rd library use are prohibited in this project !
 
 ## Installation
 
